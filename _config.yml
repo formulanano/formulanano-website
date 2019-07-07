@@ -11,7 +11,7 @@ city: Pittsburgh
 state: PA
 zip_code: 15215
 country: United States of America
-phone: (716) 555-5555
+phone:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -21,8 +21,8 @@ tiles-count: 6
 500px_url:
 facebook_url:
 github_url:
-gitlab_url: 
-googleplus_url: 
+gitlab_url:
+googleplus_url:
 instagram_url:
 linkedin_url:
 pinterest_url:
