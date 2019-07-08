@@ -31,32 +31,14 @@
 			</section>
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<span>{{ site.phone }}</span>
+					<h3>Twitter | formulanano</h3>
+					<a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"></a>
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
+					<h3>GitHub | formulanano</h3>
+					<a href="{{ site.github_url }}" class="icon alt fa-twitter" target="_blank"></a>
 				</div>
 			</section>
 		</section>
@@ -67,9 +49,6 @@
 	<footer id="footer">
 		<div class="inner">
 			<ul class="icons">
-				{% if site.twitter_url %}
-				<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-				{% endif %}
 				{% if site.googleplus_url %}
 				<li><a href="{{ site.googleplus_url }}" class="icon alt fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
 				{% endif %}
@@ -88,9 +67,6 @@
 				{% if site.gitlab_url %}
 				<li><a href="{{ site.gitlab_url }}" class="icon alt fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
 				{% endif %}
-				{% if site.github_url %}
-				<li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-				{% endif %}
 				{% if site.slack_url %}
 				<li><a href="{{ site.slack_url }}" class="icon alt fa-slack" target="_blank"><span class="label">Slack</span></a></li>
 				{% endif %}
@@ -100,9 +76,6 @@
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
-				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-
 			</ul>
 		</div>
 	</footer>
