@@ -1,0 +1,69 @@
+<html>
+<head>
+  <title>NanocarBuilder</title>
+</head>
+
+<body>
+  <script src="assets/nanocar/three.js"></script>
+  <script src="assets/nanocar/OrbitControls.js"></script>      <!-- Load mouse controls -->
+  <script src="assets/nanocar/atomVisData.js"></script>
+  <script src="assets/nanocar/nanocar.js"></script>
+  <script>
+    // Define global variables
+    // ---------------------------------- ANIMATION VARIABLES ---------------------------------------------
+    var camera, renderer, scene, controls;
+    var fps = 24;                  // Frame per second (controlled by slider)
+    var objectNumber;             // Num of objects in the scene before adding any molecules
+    var visIndex;                 // Atom Index for radius and color value from the atomVisData.js file
+    scene = new THREE.Scene();    // Initialize Scene
+    renderer = new THREE.WebGLRenderer();   // Initialize renderer
+    var zoomAmount = 30;                    // Camera zoom amount
+// --------------------------------------------------------------------------------------------------------
+    function initialize() {
+      var WIDTH; 			// browser window WIDTH
+      var HEIGHT; 		// browser window HEIGHT
+
+      WIDTH = window.innerWidth;
+      HEIGHT = window.innerHeight;
+
+      renderer.setSize(WIDTH,HEIGHT);
+      renderer.setClearColor(0xFFFFFF); // 0xFFFFFF corresponds to white
+      document.body.appendChild(renderer.domElement);
+
+      camera = new THREE.PerspectiveCamera(zoomAmount*1.5, WIDTH / HEIGHT, 0.1, 20000);
+      camera.position.set(60,0,90);
+      scene.add(camera);
+
+      var light = new THREE.PointLight(0xFFFFFF); // white light
+      light.position.set(-100, 200, 100);
+      scene.add(light);
+
+      controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+      // Add axis lines for x, y, z
+      var axisLength = 30;
+      addLine([axisLength, 0, 0], [-axisLength, 0, 0], red);    // x-axis
+      addLine([0, axisLength, 0], [0, -axisLength, 0], green);  // y-axis
+      addLine([0, 0, axisLength], [0, 0, -axisLength], blue);   // z-axis
+
+      // Visualize all the atoms in the original structure
+      objectNumber = scene.children.length-1;
+      addMolecule(nanocar, 1.2);
+      // showBonds(nanocar, 1.5);
+    };
+// --------------------------------------------------------------------------------------------------------
+    function animate() {
+    	// Sets the animation frame per second
+      setTimeout( function() { requestAnimationFrame( animate ); }, 1000 / fps );
+      renderer.render(scene, camera);
+      controls.update();
+    };
+
+    initialize();
+
+    animate();
+
+  </script>
+
+</body>
+</html>
