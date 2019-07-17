@@ -23,11 +23,14 @@
 		</section>
 		<section class="split">
 			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
-				</div>
+				<a href="mailto:{{ site.email }}">
+					<div class="contact-method">
+						<span class="icon alt fa-envelope"></span>
+						<h3>Email</h3>
+						{{ site.email }}
+					</div>
+				</a>
+
 			</section>
 			<section>
 				<div class="contact-method">
