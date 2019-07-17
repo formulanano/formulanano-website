@@ -3,6 +3,7 @@ title: Formula
 subtitle: Nano
 email: formula1nano@gmail.com
 description: A computational molecular car race to advance molecular design.
+keywords: Forumanano, molecular car, molecular design
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
