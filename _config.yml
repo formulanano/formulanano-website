@@ -1,7 +1,7 @@
 # site settings
 title: Formula
 subtitle: Nano
-email: formula1nano@gmail.com
+email: info@formulanano.com
 description: A computational molecular car race to advance molecular design.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
