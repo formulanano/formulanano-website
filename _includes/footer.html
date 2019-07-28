@@ -23,23 +23,28 @@
 		</section>
 		<section class="split">
 			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
-				</div>
+				<a href="mailto:{{ site.email }}">
+						<div class="contact-method">
+							<span class="icon alt fa-envelope"></span>
+							<h3>Email | {{ site.email }}</h3>
+						</div>
+					</a>
 			</section>
 			<section>
-				<div class="contact-method">
-					<h3>Twitter | formulanano</h3>
-					<a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"></a>
-				</div>
+				<a href="{{ site.twitter_url }}">
+					<div class="contact-method">
+						<h3>Twitter | formulanano</h3>
+						<a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"></a>
+					</div>
+			</a>
 			</section>
 			<section>
-				<div class="contact-method">
-					<h3>GitHub | formulanano</h3>
-					<a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"></a>
-				</div>
+				<a href="{{ site.github_url }}">
+					<div class="contact-method">
+						<h3>GitHub | formulanano</h3>
+						<a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"></a>
+					</div>
+				</a>
 			</section>
 		</section>
 	</div>
