@@ -35,7 +35,7 @@ nav-menu: true
 </div>
 
 <ul class="actions fit">
-	<li><a href="https://formulanano.typeform.com/to/etIg2A" target="_blank" class="button fit icon fa-discord">Click here to vote for your favorite logo</a></li>
+	<li><a href="https://formulanano.typeform.com/to/etIg2A" target="_blank" class="button fit icon fa-discord">VOTE HERE</a></li>
 </ul>
 
 <h4>Larger size</h4>

@@ -10,6 +10,6 @@ Now, it’s your turn to help us select the winning entry among them.
 We would like to thank everyone who submitted their designs, we truly love them all.
 
 <ul class="actions fit">
-	<li><a href="https://formulanano.typeform.com/to/etIg2A" target="_blank" class="button special fit icon fa-discord">Vote for your favorite logo</a></li>
-	<li><a href="{{site.url}}/logo-selection" class="button fit icon fa-discord">See the logos in larger size</a></li>
+	<li><a href="https://formulanano.typeform.com/to/etIg2A" target="_blank" class="button special fit icon fa-discord">VOTE</a></li>
+	<li><a href="{{site.url}}/logo-selection" class="button fit icon fa-discord">LEARN MORE</a></li>
 </ul>

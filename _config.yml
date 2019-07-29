@@ -13,6 +13,7 @@ state: PA
 zip_code: 15215
 country: United States of America
 phone:
+bch_address: bitcoincash:qpkc78wv6s593pskkmwf6tzu29v6rtverykea95f4x
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
