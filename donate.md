@@ -11,8 +11,10 @@ nav-menu: true
   All donations are used for maintaining our website and open-source software development.
   You can see how donations are used to complete different development tasks and
   start contributing yourself on the <a href="https://github.com/formulanano" target="_blank">Formula Nano GitHub page</a>.
+	<br><br>
+	<a href="https://explorer.bitcoin.com/bch/address/{{ site.bch_address }}" target="_blank">You can see current donations here</a>.
 	</div>
 	<div class="6u$ 12u$(small)" style="text-align: center;">
-  <img src="/assets/images/formulanano_bch_donation_address.png" width="300">
+  	<img src="/assets/images/formulanano_bch_donation_address.png" width="300">
 	</div>
 </div>
