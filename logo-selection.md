@@ -28,6 +28,11 @@ nav-menu: true
 				<p>
 					With more than one third of total points, Muratcan's logo came first place!
 					We would like to congratulate Muratcan for his great design.
+					Check out his
+					<a href="http://www.muratcanicdag.com" target="_blank">website</a>,
+					<a href="https://www.youtube.com/muratcanicdag/" target="_blank">YouTube channel</a>, and
+					<a href="https://www.instagram.com/muratcanicdag" target="_blank">instagram</a>
+					to discover more of his work!
 				</p>
 				</div>
 				<div class="6u 12u$(small)">
