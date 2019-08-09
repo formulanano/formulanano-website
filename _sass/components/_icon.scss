@@ -7,7 +7,6 @@
 /* Icon */
 
 	.icon {
-		@include icon;
 		border-bottom: none;
 		position: relative;
 
@@ -29,7 +28,7 @@
 		}
 	}
 
-	a.icon {
+	span.icon {
 		&.alt {
 			&:before {
 				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
@@ -48,3 +47,5 @@
 			}
 		}
 	}
+	
+	
