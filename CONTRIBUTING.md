@@ -29,8 +29,8 @@ In order deploy the website locally we need Ruby and some "gems" installed on ou
 1. Download and Install a Ruby+Devkit version from [RubyInstaller Downloads](https://rubyinstaller.org/downloads/). Use default options for installation.
 2. Run the `ridk install` step on the last stage of the installation wizard. This is needed for installing gems with native extensions. You can find additional information regarding this in the [RubyInstaller Documentation](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system).
 3. Open a new command prompt window from the start menu, so that changes to the PATH environment variable becomes effective. Install Jekyll via `gem install jekyll` and for compatibility install Bundler v1.12 via `gem install bundler -v 1.12`
-4. Check if Jekyll and Bundler installed properly: `jekyll -v` and `bundler -v`
-5. Go to directiory that you clone the your forked repository and run `jekyll serve`. In browser open "127.0.0.1:4000".
+4. Check if Jekyll and Bundler are installed properly: `jekyll -v` and `bundler -v`
+5. Go to the directiory of your forked repository and run `jekyll serve`. In your browser open "127.0.0.1:4000".
 
 #### 3.2. Fedora
 1. Run `sudo dnf install ruby ruby-devel @development-tools`
@@ -46,7 +46,7 @@ Run : `sudo dnf install redhat-rpm-config`
 * If you get an error that says `make: g++: Command not found`
 Run: `dnf install gcc-c++`
 4. Install Bundler v1.12 for compatibility via `gem install bundler -v 1.12`
-5. Go to directiory that you clone the your forked repository and run `jekyll serve`. In browser open "127.0.0.1:4000".
+5. Go to the directiory of your forked repository and run `jekyll serve`. In your browser open "127.0.0.1:4000".
 
 
 #### 3.3. Ubuntu
@@ -58,10 +58,10 @@ export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
 ```
 3. Install Jekyll via `gem install jekyll` and for compatibility install Bundler v1.12 via `gem install bundler -v 1.12`
-4. Go to directiory that you clone the your forked repository and run `jekyll serve`. In browser open "127.0.0.1:4000".
+4. Go to the directiory of your forked repository and run `jekyll serve`. In your browser open "127.0.0.1:4000".
 
-## 4. Make the changes you want
-## 5. Go to GitHub page of your forked repo and create a pull request
+### 4. Make the changes you want
+### 5. Go to GitHub page of your forked repo and create a pull request
 Visit this link if you have any confusion: https://help.github.com/en/articles/creating-a-pull-request
 
 *Thank you*
