@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Weekly Updates
-nav-menu: true
+nav-menu: false
 ---
 
 <!-- Main -->

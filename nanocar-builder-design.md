@@ -2,7 +2,7 @@
 layout: post
 title: Nanocar Builder Design
 description: UI design for the nanocar builder
-nav-menu: true
+nav-menu: false
 ---
 
 We want to build the most user friendly molecule editor of the web with an emphasis on building nanocars.
